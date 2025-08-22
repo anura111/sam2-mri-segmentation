@@ -13,10 +13,26 @@ This repo runs [Meta’s SAM 2](https://github.com/facebookresearch/sam2) on MRI
 
 ## Quickstart
 
-git clone <YOUR_REPO_URL> facebook_sam2
+git clone https://github.com/anura111/sam2-mri-segmentation facebook_sam2
+
 cd facebook_sam2
 
+
 python3 -m venv sam2env
+
 source sam2env/bin/activate
+
 pip install -r requirements.txt
 
+---
+
+## Usage
+- change paths to your own!
+  
+PYTORCH_ENABLE_MPS_FALLBACK=1 \
+~/Desktop/facebook_sam2/sam2env/bin/python segment_mri_sam2.py 
+  --video /Users/anuradeshpande/Downloads/MRI_hand_segment_25/avi_files/IDvol_aCa1_0320.avi \
+  --workdir ~/Desktop/facebook_sam2/workdir_mri \
+  --out ~/Desktop/facebook_sam2/overlay.mp4 \
+  --vos_optimized \
+  --device mps
