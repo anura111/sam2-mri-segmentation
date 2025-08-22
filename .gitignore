@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# --- Virtual environments ---
+sam2env/
+.env/
+.venv/
+
+# --- Outputs / Generated files ---
+workdir_mri/
+overlay.mp4
+*.avi
+*.mp4
+*.mov
+*.png
+*.jpg
+
+# --- Logs & checkpoints ---
+*.log
+*.ckpt
+*.pth
+*.pt
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Jupyter notebooks (optional) ---
+.ipynb_checkpoints/
