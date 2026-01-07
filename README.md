@@ -1,6 +1,7 @@
 # sam2-mri-segmentation
-(USC SPAN) Segmenting mri video avi files using Meta's SAM2 
-
+(USC SPAN) Segmenting mri video avi files using Meta's SAM2
+**MAIN CODE FILE IS LOCATED runs/segment_mri_sam2.py
+**
 # MRI Tongue Segmentation with SAM 2
 
 This repo runs [Meta’s SAM 2](https://github.com/facebookresearch/sam2) on MRI `.avi` videos to segment tongue motion.
