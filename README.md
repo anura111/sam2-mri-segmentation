@@ -32,8 +32,8 @@ pip install -r requirements.txt
   
 PYTORCH_ENABLE_MPS_FALLBACK=1 \
 ~/Desktop/facebook_sam2/sam2env/bin/python segment_mri_sam2.py 
-  --video /Users/anuradeshpande/Downloads/MRI_hand_segment_25/avi_files/IDvol_aCa1_0320.avi \
-  --workdir ~/Desktop/facebook_sam2/workdir_mri \
-  --out ~/Desktop/facebook_sam2/overlay.mp4 \
+  --video YOUR/PATH\
+  --workdir ~/YOUR/PATH \
+  --out ~/YOUR/PATH \
   --vos_optimized \
   --device mps
